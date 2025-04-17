@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Omah</title>
+    <style>
+        @keyframes fadeSlideIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+    <style>
+        .balloon {
+            position: absolute; bottom: -150px; width: 60px; height: 80px; background-color: pink; border-radius: 50% 50% 50% 50%; animation: floatUp 10s linear infinite; box-shadow: inset -5px -10px rgba(0,0,0,0.1);
+        }
+        .balloon::after {
+            content: ''; position: absolute;bottom: -20px ; left: 50px; width: 2px; height: 20px; background: black; transform: translateX(-50%);
+        }
+        @keyframes  floatUp {
+            0% {
+                transform: translateY(-120vh) rotate(10deg); opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body style="background-color: #fce4ec;text-align: center; padding-top: 100px; font-family: Arial, Helvetica, sans-serif;">
+    <h1 style="color: #880e4f; font-size: 60px; animation: fadeSlideIn 2s ease-in-out forwards; opacity: 0;">Happy Birthday Omah &#128420;</h1>
+    <p style="color: #120e17; font-size: 24px; margin-top: 20px; animation: fadeSlideIn 3s ease-out forwards; opacity: 0;">Wishing you all the joy and love today and always!</p>
+    <div class="balloon" style="left: 20%; background-color: pink; animation-delay: 0s;"></div>
+    <div class="balloon" style="left: 40%; background-color: pink; animation-delay: 2s;"></div>
+    <div class="balloon" style="left: 60%; background-color: pink; animation-delay: 4s;"></div>
+    <div class="balloon" style="left: 80%; background-color: pink; animation-delay: 6s;"></div> 
+    <div style="margin: 60px auto; max-width: 600px; background-color: #ffffffdd; padding: 30px; border-radius: 12px; box-shadow: 0 0 15px rgba(0,0,0,0.1); font-size: 20px; line-height: 1.6; color: #4a148c; animation: fadeSlideIn 5s ease-out forwards; opacity: 0;">
+        <strong>Hey Omah,</strong><br><br>
+        On this special day, i just want to say how amazing you are. Your wickedness,strenght, and beautiful spirit light up every room you walk into. May this year bring you endless happiness, love, and all the things your heart desires.<br><br>
+        <em>With all my love,</em><br>
+        <strong>[Your love]</strong>
+    </div>
+</body>
+</html>
